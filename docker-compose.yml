@@ -1,0 +1,7 @@
+version: '3'
+services:
+  tor-privoxy:
+    image: dockage/tor-privoxy
+    ports:
+      - "9050:9050" # Tor proxy
+      - "8118:8118" # Privoxy

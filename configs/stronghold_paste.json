@@ -1,0 +1,16 @@
+{
+  "name": "stronghold_paste",
+  "url": "http://nzxj65x32vh2fkhk.onion/all",
+  "item": {
+    "splitter": ".//section[@id='list']//div[contains(@class,'row')][position()>1]",
+    "paste_url": ".//a[contains(@class,'btn btn-success')]/@href",
+    "date": "substring-after(.//div[contains(@class,'col-sm-6')][1], 'at')",
+    "date_format": "%d %b %Y, %H:%M:%S UTC",
+    "author": "substring-before(substring-after(.//div[contains(@class,'col-sm-6')][1],'Posted by '), 'at')",
+    "title": ".//div[contains(@class,'pre-header')]//h4/text()",
+    "content": ".//div[@class='text']//ol//text()"
+  },
+  "paging": {
+    "url": ".//ul[@class='pagination']//li[@class='active']//following::li[1]//@href"
+  }
+}

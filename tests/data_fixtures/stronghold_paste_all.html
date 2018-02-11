@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stronghold Paste</title>
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://nzxj65x32vh2fkhk.onion/feed"/>
+
+    <link href="http://nzxj65x32vh2fkhk.onion/assets/bootstrap/img/favicon.png" rel="shortcut icon"/>
+    <link href="http://nzxj65x32vh2fkhk.onion/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="http://nzxj65x32vh2fkhk.onion/assets/bootstrap/css/stickynotes.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="http://nzxj65x32vh2fkhk.onion/assets/bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://nzxj65x32vh2fkhk.onion/assets/bootstrap/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="http://nzxj65x32vh2fkhk.onion/assets/bootstrap/js/jquery.scrollto.js"></script>
+    <script type="text/javascript" src="http://nzxj65x32vh2fkhk.onion/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://nzxj65x32vh2fkhk.onion/assets/bootstrap/js/stickynotes.js"></script>
+    <script type="text/javascript" src="//www.google.com/jsapi"></script>
+
+    <script type="text/javascript">
+        var ajaxUrl = "http://nzxj65x32vh2fkhk.onion/ajax";
+        var ajaxNav = false;
+    </script>
+</head>
+
+<body data-toggle="ajax" data-context="ListController">
+<div class="loader">
+		<span class="well well-sm well-white well-loader">
+	<span class="glyphicon glyphicon-time"></span>
+	Loading
+</span>
+</div>
+
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="http://nzxj65x32vh2fkhk.onion">Stronghold Paste</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a><span class="glyphicon glyphicon-list"></span>
+                    Archives</a></li>
+                <li><a href="http://nzxj65x32vh2fkhk.onion/trending"><span class="glyphicon glyphicon-fire"></span>
+                    Trending</a></li>
+                <li><a href="http://nzxj65x32vh2fkhk.onion/docs"><span class="glyphicon glyphicon-book"></span>
+                    Docs</a></li>
+                <li><a href="http://nzxj65x32vh2fkhk.onion/user/login"><span class="glyphicon glyphicon-user"></span>
+                    Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-12">
+
+
+        </div>
+    </div>
+
+    <section id="list">
+        <div class="row">
+            <div class="col-sm-4 col-md-3 col-sm-offset-8 col-md-offset-9">
+                <form method="POST" action="http://nzxj65x32vh2fkhk.onion/search" accept-charset="UTF-8" role="form">
+                    <input name="_token" type="hidden" value="TOqTjlS4fBnk2eStFKFd4grhR4KuEjdnbxTmeSP1">
+
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Search" maxlength="500" name="search" type="text">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Codex tasks.xml
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="stronghold_paste_paste.html" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; &nbsp; &nbsp; &nbsp; Hourly Cleanup
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; &nbsp; &nbsp; &nbsp; Cleans out old searches, captcha images, registration
+                                    questions and expires redirects.
+                                </div>
+                            </li>
+                            <li style="font-weight: bold; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; &nbsp; &nbsp; &nbsp; hourlycleanup
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 23 Jan 2018, 00:02:58 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 2261
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Codex settings.xml
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="stronghold_paste_paste.html" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; &nbsp; &nbsp; &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Board Closed
+                                </div>
+                            </li>
+                            <li style="font-weight: bold; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; If you need to close your forums to make
+                                    some changes or perform an upgrade, this is the global switch. Viewers will not be
+                                    able to view your forums, however, they will see a message with the reason you
+                                    specify below. Administrators will still be able to view the forums.
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 23 Jan 2018, 00:01:32 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1920
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Codex Open Install Direct
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/pdkcxce8o" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    http://codexqutu7ytbguw.onion/install/
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 22 Jan 2018, 23:58:50 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1875
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Codex .htaccess for backu
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/pv8f5wsq9" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &lt;IfModule !mod_authz_core.c&gt;
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; Order deny,allow
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; Deny from all
+                                </div>
+                            </li>
+                            <li style="font-weight: bold; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &lt;/IfModule&gt;
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 22 Jan 2018, 23:57:02 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1551
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Codex Admin Panel Address
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/prkmqb9w4" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    http://codexqutu7ytbguw.onion/admin/
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 22 Jan 2018, 23:54:15 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1380
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Codex htaccess-nginx
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/prb28flk6" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    # Note: You are able to choose a different name in the Admin CP. If you've done that
+                                    you need to change it here too
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    location ~ /error.log
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    {
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp; &nbsp; deny all;
+                                </div>
+                            </li>
+                            <li style="font-weight: bold; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    }
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 22 Jan 2018, 23:51:29 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1146
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Codex htaccess
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/pnhgnpdz4" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    Options -MultiViews +FollowSymlinks -Indexes
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    #
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    # If mod_security is enabled, attempt to disable it.
+                                </div>
+                            </li>
+                            <li style="font-weight: bold; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    # - Note, this will work on the majority of hosts but on
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 22 Jan 2018, 23:50:07 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1073
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Codex Membership as of 22
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/pt8tlsbaq" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    Godfather
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    (Administrator)
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    *******
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: bold; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    Registration Date: 12-24-2017
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 22 Jan 2018, 22:30:50 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 505
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Choloform
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/pva6k57ko" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    If you want to buy chloroform which is stabilized (don not decomposes to fosgene).
+                                    &nbsp;I ship worldwide. You can choose from 5, 10, 20, 30, 50 and 100ml. I make it
+                                    fresh on the order. I only start the delivery if you send me the delivery price and
+                                    the half of the actual price for the substance, you will get the tracking number
+                                    after the other half. For special order we can deal something out.
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    For further details or question contact me on wickr @petefromdeep.
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 22 Jan 2018, 18:02:23 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 516
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                netflix
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/pwhm2lisg" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    https://ghostbin.com/paste/cvgu8
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    January 22, 2018 at 11:40 AM
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    by Dump Monitor #Leaked
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: bold; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    si_republican@hotmail.com:stetson29
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by <a href="http://nzxj65x32vh2fkhk.onion/user/u24/pastes">cyrix</a> at 22 Jan 2018,
+                            03:36:04 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 763
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Incest Mother and Son
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/pyv4leaao" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    Incest &nbsp;Mother and Son
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    Irina and Oleg
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    http://ftyffwtact6nguwi.onion/
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 20 Jan 2018, 21:12:09 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1030
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                Hidden Clubs
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/pgrommtem" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    Join clubs that you are interested in or start your own and customize it the way you
+                                    want with blogs and forum. (tor only)
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    &nbsp;
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    Info site on the clearnet: http://myhiddenclubs.com/
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 20 Jan 2018, 09:43:01 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1145
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                cc
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/py5l1twqj" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    http://alturl.com/bbypy
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 20 Jan 2018, 06:43:01 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1135
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                &lt;3
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/pjoibmrdi" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    Laini &lt;3 Poepie
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    together 4 ever
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 19 Jan 2018, 22:52:40 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1277
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pre-info pre-header">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <h4>
+                                EASY TARGET ( IP + all in
+                            </h4>
+                        </div>
+
+                        <div class="col-sm-7 text-right">
+                            <a href="http://nzxj65x32vh2fkhk.onion/pymlnh9xd" class="btn btn-success">Show paste</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well well-sm well-white pre">
+                    <div class="text" style="font-family:monospace;">
+                        <ol>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    WIM FRANCKAERTS IS A CHILD MOLESTER
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    ID FRONT:
+                                    http://matrixtxri745dfw.onion/neo/uploads/180116/MATRIX_222704_kxH_ID_front.jpg
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    ID BACK:
+                                    http://matrixtxri745dfw.onion/neo/uploads/180116/MATRIX_222758_GnN_ID_back.jpg
+                                </div>
+                            </li>
+                            <li style="font-weight: normal; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    Full Name: Wim Franckaerts
+                                </div>
+                            </li>
+                            <li style="font-weight: bold; vertical-align:top;">
+                                <div style="font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;vertical-align: middle">
+                                    Sex: Man
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="pre-info pre-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Posted by Anonymous at 19 Jan 2018, 22:21:25 UTC
+                        </div>
+
+                        <div class="col-sm-6 text-right">
+                            Language: text
+                            &bull;
+                            Views: 1282
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <ul class="pagination">
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=2" rel="prev">&laquo;</a></li>
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=1">1</a></li>
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=2">2</a></li>
+                    <li class="active"><span>3</span></li>
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=4">4</a></li>
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=5">5</a></li>
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=6">6</a></li>
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=7">7</a></li>
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=8">8</a></li>
+                    <li class="disabled"><span>...</span></li>
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=362">362</a></li>
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=363">363</a></li>
+                    <li><a href="http://nzxj65x32vh2fkhk.onion/all?page=4" rel="next">&raquo;</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+
+<footer>
+    <p>Automatically deletes pastes older than one month.</p>
+
+    <!-- Do not the following copyright notice to avoid copyright violation. See http://opensource.org/licenses/BSD-2-Clause for details -->
+    <!-- You may however choose to remove the hyperlinks and retain the copyright as plain text -->
+    <p><a href="http://sayakbanerjee.com/sticky-notes">Sticky Notes</a> &copy; 2014 <a href="http://sayakbanerjee.com">Sayak
+        Banerjee</a>.</p>
+
+
+</footer>
+</body>
+
+</html>

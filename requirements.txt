@@ -1,0 +1,11 @@
+requests
+marshmallow
+tinydb_serialization
+mock
+pytest
+lxml
+arrow
+flake8
+tinydb
+apscheduler
+datetime
