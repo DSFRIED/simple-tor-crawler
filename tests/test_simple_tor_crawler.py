@@ -20,12 +20,12 @@ def get_config_data_fixture():
         return json.load(f)
 
 
-@mock.patch('simple_tor_crawler.SimpleCrawler.get_page_source',
+@mock.patch('simple_tor_crawler.SimpleTorCrawler.get_page_source',
             side_effect=[
                 get_html_data_fixture('stronghold_paste_all'),
                 get_html_data_fixture('stronghold_paste_paste')
             ])
-@mock.patch('simple_tor_crawler.SimpleCrawler.get_source_config',
+@mock.patch('simple_tor_crawler.SimpleTorCrawler.get_source_config',
             return_value=get_config_data_fixture())
 def test_get_new_pastes(get_source_config_mock, get_mock):
     expected_result = Paste({'title': 'Codex tasks.xml',
@@ -40,12 +40,12 @@ def test_get_new_pastes(get_source_config_mock, get_mock):
     assert res.data.extra == expected_result.extra
 
 
-@mock.patch('simple_tor_crawler.SimpleCrawler.get_page_source',
+@mock.patch('simple_tor_crawler.SimpleTorCrawler.get_page_source',
             side_effect=[
                 get_html_data_fixture('stronghold_paste_all'),
                 get_html_data_fixture('stronghold_paste_paste')
             ])
-@mock.patch('simple_tor_crawler.SimpleCrawler.get_source_config',
+@mock.patch('simple_tor_crawler.SimpleTorCrawler.get_source_config',
             return_value=get_config_data_fixture())
 def test_get_new_pastes_old_paste(get_source_config_mock, get_mock):
     crawler = SimpleTorCrawler()

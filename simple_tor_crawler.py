@@ -64,7 +64,8 @@ class SimpleTorCrawler:
         self.dal.update_last_crawl_date(datetime.datetime.utcnow())
 
     def get_source_config(self):
-        return json.load(open(CONFIG_PATH))
+        with open(CONFIG_PATH) as config_file:
+            return json.load(config_file)
 
     def get_new_pastes(self):
         paging = True
