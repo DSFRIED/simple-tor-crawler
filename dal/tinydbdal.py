@@ -1,10 +1,8 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 
 from tinydb import TinyDB
 from tinydb_serialization import SerializationMiddleware
 from tinydb_serialization import Serializer
-
-DEFAULT_LAST_CRAWL_DATE_DB = datetime.utcnow() - timedelta(days=30)
 
 
 class DateTimeSerializer(Serializer):
